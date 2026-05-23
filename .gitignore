@@ -23,6 +23,4 @@ db_data/
 .idea/
 .vscode/
 *.swp
-
-# Claude Code
 .claude/
