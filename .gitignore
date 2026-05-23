@@ -1,0 +1,25 @@
+# Environment
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.db
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+
+# Docker volumes
+db_data/
+
+# IDE
+.idea/
+.vscode/
+*.swp

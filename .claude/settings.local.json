@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(anthropic-skills:pdf)",
+      "Skill(anthropic-skills:pdf:*)",
+      "Read(//c/Users/razva/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/3f378d44-2560-4755-8e82-ff210d88e4c9/800ddf48-729f-49b9-bf29-3ed78c365a0f/skills/pdf/**)",
+      "Bash(python -c ' *)",
+      "Bash(pip install *)",
+      "Bash(mkdir -p \"C:\\\\Users\\\\razva\\\\PycharmProjects\\\\AI-Interviewer\\\\backend\\\\app\\\\api\\\\routes\" \"C:\\\\Users\\\\razva\\\\PycharmProjects\\\\AI-Interviewer\\\\backend\\\\app\\\\core\" \"C:\\\\Users\\\\razva\\\\PycharmProjects\\\\AI-Interviewer\\\\backend\\\\app\\\\db\" \"C:\\\\Users\\\\razva\\\\PycharmProjects\\\\AI-Interviewer\\\\backend\\\\app\\\\models\" \"C:\\\\Users\\\\razva\\\\PycharmProjects\\\\AI-Interviewer\\\\backend\\\\app\\\\services\" \"C:\\\\Users\\\\razva\\\\PycharmProjects\\\\AI-Interviewer\\\\backend\\\\tests\" \"C:\\\\Users\\\\razva\\\\PycharmProjects\\\\AI-Interviewer\\\\frontend\\\\src\\\\app\\\\interview\\\\[id]\" \"C:\\\\Users\\\\razva\\\\PycharmProjects\\\\AI-Interviewer\\\\frontend\\\\src\\\\app\\\\history\" \"C:\\\\Users\\\\razva\\\\PycharmProjects\\\\AI-Interviewer\\\\frontend\\\\src\\\\components\" \"C:\\\\Users\\\\razva\\\\PycharmProjects\\\\AI-Interviewer\\\\frontend\\\\src\\\\hooks\" \"C:\\\\Users\\\\razva\\\\PycharmProjects\\\\AI-Interviewer\\\\frontend\\\\src\\\\lib\" \"C:\\\\Users\\\\razva\\\\PycharmProjects\\\\AI-Interviewer\\\\.github\\\\workflows\")",
+      "Bash(pip show *)",
+      "Bash(ANTHROPIC_API_KEY=dummy_key_for_tests python -m pytest tests/ --tb=short -q)",
+      "Bash(python -c \"import site; print\\(site.getusersitepackages\\(\\)\\)\")",
+      "Bash(python -c \"from typing_extensions import Literal; print\\('ok'\\)\")",
+      "Bash(GROQ_API_KEY=dummy_key_for_tests python -m pytest tests/ --tb=short -q)",
+      "Bash(GROQ_API_KEY=dummy python -m pytest tests/ --tb=short -q)",
+      "Bash(GROQ_API_KEY=dummy HF_TOKEN= python -m pytest tests/ --tb=short -q)",
+      "Bash(python -m pytest tests/test_analysis.py -v)",
+      "Bash(python -m pytest -v)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\razva\\\\PycharmProjects\\\\AI-Interviewer\\\\frontend\\\\src\" -Recurse | where {$_.Extension -in @\\('.tsx','.ts'\\)} | Select-Object FullName, @{n='Size';e={$_.Length}})",
+      "WebFetch(domain:dribbble.com)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\razva\\\\PycharmProjects\\\\AI-Interviewer\\\\backend\" -Recurse -Filter \"*.py\")",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(New-Item -ItemType File -Path \"C:\\\\Users\\\\razva\\\\PycharmProjects\\\\AI-Interviewer\\\\README.md\" -Force)",
+      "Bash(Out-Null)",
+      "PowerShell(New-Item -ItemType File -Path \"C:\\\\Users\\\\razva\\\\PycharmProjects\\\\AI-Interviewer\\\\README.md\" -Force)"
+    ]
+  }
+}
