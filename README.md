@@ -12,6 +12,31 @@ All interview data is stored locally and can be revisited or exported as JSON at
 
 ---
 
+## Deployment
+
+The app is available at: https://intervue-ai-1.vercel.app/
+
+---
+
+## Docker
+
+Run the full stack locally with a single command.
+
+Create an '.env' file in the project root:
+
+```env
+GROQ_API_KEY=groq_key
+HF_TOKEN=hf_token
+```
+
+```bash
+docker compose up --build
+```
+- Frontend: http://localhost:3000
+- Backend: http://localhost:8000
+
+---
+
 ## Features
 
 **Interview flow**
